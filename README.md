@@ -2,11 +2,41 @@
 
 [https://aider.chat](https://aider.chat)
 
-Aider is an AI pair programmer that helps you code in your terminal. It uses large language models to edit code in your local git repository.
+Aider is an AI pair programmer that helps you code in your terminal. It uses large language models to edit code in your local git repository. This repository is built to install and run aider easily on any linux distribution. It also includes a sample .env file for configuration.
 
-Ask aider to add features, fix bugs, write tests, refactor, and more.  Just describe what you want and aider will modify the code.
+## Installation
 
-Aider works with many different language models, including GPT-4o, GPT-4, GPT-3.5 Turbo, Claude 3, Gemini, Ollama, Llama.cpp and more.
+### Prerequisites
+
+*   Python 3.7 or higher.  Check your python version with: `python --version`
+
+### Install aider using `pip` and `venv` (recommended)
+
+1.  **Clone the aider repository:**
+    ```bash
+    git clone https://github.com/kadavilrahul/aider_on_linux.git && cd aider_on_linux
+    ```
+2.  **Change sample_env to .env**
+
+    ```bash
+    mv sample_env .env
+    ```
+3. Add credentials to .env
+    ```bash
+    OPENROUTER_API_KEY=your_api_key
+    ``` 
+4.  **Create a virtual environment:**
+    ```bash
+    bash install.sh
+    ```
+5.  **Run aider:**
+    ```bash
+    bash run.sh
+    ```
+### Verify Installation
+
+After installation, verify that aider is installed correctly by checking the version:
+
 
 ## Features
 
@@ -43,61 +73,4 @@ Key documentation files in this repository include:
 *   `voice.md`:  Configuration for voice input features.
 *   `voice_to_code.md`:  Guide to using voice-to-code functionality.
 
-## Installation
-
-### Prerequisites
-
-*   Python 3.7 or higher.  Check your python version with: `python --version`
-
-### Install aider using `pip` and `venv` (recommended)
-
-1.  **Clone the aider repository:**
-    ```bash
-    git clone https://github.com/kadavilrahul/aider_on_linux.git
-    cd aider
-    ```
-2.  **Change sample_env to .env**
-    ```bash
-    cd ..
-    ```
-    ```bash
-    mv sample_env .env
-    ```
-3. Add credentials to .env
-    ```bash
-    OPENROUTER_API_KEY=your_api_key
-    ``` 
-4.  **Create a virtual environment:**
-    ```bash
-    python -m venv aider-env
-    ```
-5.  **Activate the virtual environment:**
-    ```bash
-    source aider-env/bin/activate
-    ```
-    On Windows:
-    ```bash
-    aider-env\Scripts\activate
-    ```
-
-4.  **Install aider:**
-    ```bash
-    pip install -e .
-    ```
-    This installs aider in "editable" mode, so you can modify the code directly if you want to contribute to aider development.
-
-### Alternative installation using `pipx`
-
-If you prefer to install aider system-wide and manage it with `pipx`:
-
-1.  **Install pipx:** Follow the instructions here: [https://pipx.pypa.io/stable/install/](https://pipx.pypa.io/stable/install/)
-
-2.  **Install aider with pipx:**
-    ```bash
-    pipx install aider-chat
-    ```
-
-### Verify Installation
-
-After installation, verify that aider is installed correctly by checking the version:
 
