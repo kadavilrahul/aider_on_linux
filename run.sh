@@ -7,7 +7,7 @@ cd /path/to/project/folder
 source ~/aider-env/bin/activate
 
 # Export OpenRouter API key
-export OPENROUTER_API_KEY=""
+export OPENROUTER_API_KEY="sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 # Define available models categorized by Free and Paid
 free_models=(
