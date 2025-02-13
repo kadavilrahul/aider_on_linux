@@ -2,8 +2,8 @@ Refer to `run.sh` for instructions on how to run aider and select different lang
 
 ### Basic Usage
 
-1.  **Install aider:** `./install.sh`
-2.  **Run aider:** `./run.sh` (or `aider` after activating the virtual environment)
+1.  **Install aider:** Follow the installation instructions above.
+2.  **Run aider:** `./run.sh` (or `aider` after activating the virtual environment or if using `pipx`)
 3.  **Add files to the chat:** `/add <filename>`
 4.  **Describe what you want to do:**  e.g., "Add a function to calculate factorials"
 

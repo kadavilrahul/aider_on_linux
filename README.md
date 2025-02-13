@@ -45,3 +45,50 @@ Key documentation files in this repository include:
 
 ## Installation
 
+### Prerequisites
+
+*   Python 3.7 or higher.  Check your python version with: `python --version`
+
+### Install aider using `pip` and `venv` (recommended)
+
+1.  **Clone the aider repository:**
+    ```bash
+    git clone https://github.com/paul-gauthier/aider.git
+    cd aider
+    ```
+
+2.  **Create a virtual environment:**
+    ```bash
+    python -m venv aider-env
+    ```
+
+3.  **Activate the virtual environment:**
+    ```bash
+    source aider-env/bin/activate
+    ```
+    On Windows:
+    ```bash
+    aider-env\Scripts\activate
+    ```
+
+4.  **Install aider:**
+    ```bash
+    pip install -e .
+    ```
+    This installs aider in "editable" mode, so you can modify the code directly if you want to contribute to aider development.
+
+### Alternative installation using `pipx`
+
+If you prefer to install aider system-wide and manage it with `pipx`:
+
+1.  **Install pipx:** Follow the instructions here: [https://pipx.pypa.io/stable/install/](https://pipx.pypa.io/stable/install/)
+
+2.  **Install aider with pipx:**
+    ```bash
+    pipx install aider-chat
+    ```
+
+### Verify Installation
+
+After installation, verify that aider is installed correctly by checking the version:
+
