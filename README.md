@@ -8,7 +8,7 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
 
 ### Prerequisites
 
-*   Python 3.7 or higher.  Check your python version with: `python --version`
+*   Python 3.7 or higher.
 
 ### Install aider using `pip` and `venv` (recommended)
 
