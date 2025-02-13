@@ -6,8 +6,11 @@ cd /path/to/project/folder/
 # Activate the virtual environment
 source ~/aider-env/bin/activate
 
-# Export OpenRouter API key
-export OPENROUTER_API_KEY="sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+# Export OpenRouter API key - read from environment variable instead of hardcoding
+if [ -z "$OPENROUTER_API_KEY" ]; then
+    echo "Error: OPENROUTER_API_KEY environment variable is not set"
+    exit 1
+fi
 
 # Define available models categorized by Free and Paid
 free_models=(
