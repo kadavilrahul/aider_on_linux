@@ -1,8 +1,8 @@
-# aider: AI Pair Programmer in your terminal
+# aider: AI Pair Programmer in terminal
 
 [https://aider.chat](https://aider.chat)
 
-Aider is an AI pair programmer that helps you code in your terminal. It uses large language models to edit code in your local git repository. This repository is built to install and run aider easily on any linux distribution. It also includes a sample .env file for configuration.
+Aider is an AI pair programmer that helps you code in your terminal. It uses large language models to edit code in your local git repository. This repository is built to install and run aider easily on any linux distribution. You can install and run aider with five simple steps.It also includes a sample .env file for configuration.
 
 ## Installation
 
@@ -10,6 +10,7 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
 
 *   Python 3.7 or higher.
 *   Tested on Linux ubuntu 24.04.
+*   OpenRouter API Key. [https://openrouter.ai](https://openrouter.ai)
 
 ### Install aider using `pip` and `venv` (recommended)
 
@@ -22,11 +23,11 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
     ```bash
     mv sample_env .env
     ```
-3. Add credentials to .env
+3.  **Add credentials to .env**
     ```bash
     OPENROUTER_API_KEY=your_api_key
     ``` 
-4.  **Create a virtual environment:**
+4.  **Install aider:**
     ```bash
     bash install.sh
     ```
