@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Enter the project directory
-cd /path/to/project/folder
+cd /path/to/project/folder/
 
 # Activate the virtual environment
 source ~/aider-env/bin/activate
