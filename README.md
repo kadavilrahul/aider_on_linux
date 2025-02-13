@@ -30,7 +30,7 @@ Key documentation files in this repository include:
 *   `analytics.md`:  Details about usage analytics.
 *   `chat_modes.md`:  Information on different chat modes (code, architect, ask, help).
 *   `copy_paste_with_web_chat.md`:  Documentation for using aider with web-based LLM interfaces.
-*   `fix_and_commit.md`:  Details on linting, testing, and committing changes.
+*   `fix_and_commit.md`:  Details about linting, testing, and committing changes.
 *   `git_settings.md`:  Configuration options related to git integration.
 *   `images_and_web_pages.md`:  Using images and web pages as context in chat.
 *   `important_commands.md`:  Quick reference for essential commands.
