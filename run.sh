@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Enter the project directory
-cd /path/to/project/folder
+# cd /path/to/project/folder
 
 # Activate the virtual environment
 source ~/aider-env/bin/activate
 
 # Export OpenRouter API key
-export OPENROUTER_API_KEY=""
+export OPENROUTER_API_KEY="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"
 
 # Define available models categorized by Free and Paid
 free_models=(
