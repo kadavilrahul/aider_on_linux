@@ -56,13 +56,22 @@ Key documentation files in this repository include:
     git clone https://github.com/kadavilrahul/aider_on_linux.git
     cd aider
     ```
-
-2.  **Create a virtual environment:**
+2.  **Change sample_env to .env**
+    ```bash
+    cd ..
+    ```
+    ```bash
+    mv sample_env .env
+    ```
+3. Add credentials to .env
+    ```bash
+    OPENROUTER_API_KEY=your_api_key
+    ``` 
+4.  **Create a virtual environment:**
     ```bash
     python -m venv aider-env
     ```
-
-3.  **Activate the virtual environment:**
+5.  **Activate the virtual environment:**
     ```bash
     source aider-env/bin/activate
     ```
