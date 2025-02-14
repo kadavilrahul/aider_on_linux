@@ -83,7 +83,7 @@ Using a virtual environment (`venv`) is highly recommended to keep your Python p
     source ~/aider-env/bin/activate
     ```
 
-3.  **Create a `.env` file in your project directory:**
+3.  **Create a `.env` file either in your home directory or in your project directory:**
 
     Copy the contents of the `sample_env` file from this repository into your new `.env` file.
 
