@@ -21,7 +21,7 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
 2.  **Change sample_env to .env**
 
     ```bash
-    mv sample_env .env
+    cp sample_env .env
     ```
 3.  **Add credentials to .env**
     ```bash
