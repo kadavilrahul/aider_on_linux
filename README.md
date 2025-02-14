@@ -14,31 +14,91 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
 
 ### Install aider using `pip` and `venv` (recommended)
 
-1.  **Clone the aider repository:**
-    ```bash
-    git clone https://github.com/kadavilrahul/aider_on_linux.git && cd aider_on_linux
-    ```
-2.  **Change sample_env to .env**
+1.  **Check if Python is installed:**
+ 
+2.  **Create .env file in your project directory:**
 
+3.  **Configure .env file**
+    - Copy paste the contents of the sample_env file from this repository to the .env file:
+    - Add API keys of LLM's to the .env file:
+    
+4.  **Create virtual environment(optional)**
     ```bash
-    cp sample_env .env
+    python3 -m venv ~/aider-env
     ```
-3.  **Add credentials to .env**
+    or
     ```bash
-    OPENROUTER_API_KEY=your_api_key
-    ``` 
-4.  **Install aider:**
-    ```bash
-    bash install.sh
-    ```
-5.  **Run aider:**
-    ```bash
-    bash run.sh
-    ```
-### Verify Installation
+    python -m venv ~/aider-env
 
-After installation, verify that aider is installed correctly by checking the version:
+    ```
+5.  **Activate the virtual environment:**
+    ```bash
+    source ~/aider-env/bin/activate
+    ```
 
+6.  **Install aider:**
+    ```bash
+    python -m pip install aider-chat
+    ```
+    After installation, verify that aider is installed correctly by checking the version:
+    ```bash
+    aider --version
+    ```
+7.  **Run aider with default model:**
+    ```bash
+    aider
+    ```
+8.  **List all models:**
+    ```bash
+    aider --list-models
+    ```
+9.  **List models of a specific LLM provider:**
+    Modify this as needed for your provider
+    ```bash
+    aider --list-models gemini/
+    ```
+10.  **Run aider with specific model:**
+    Modify this as per your model
+    ```bash
+    aider --model gemini/gemini-2.0-flash-thinking-exp
+    ```
+11.  **To export API key directly on the command line:**
+    Modify this as per your provider
+    ```bash
+    # Set API key for gemini
+    export GEMINI_API_KEY=
+    ```
+12.  **Run aider with voice input:**
+    ```bash
+    aider --voice
+    ```
+### OTHER COMMANDS:
+1.  **Exit chat:**
+    ```bash
+    exit 
+    ```
+2.  **Deactivate virtual environment:**
+    ```bash
+    deactivate
+    ```
+### Uninstall aider
+
+1.  **Deactivate virtual environment:**
+    ```bash
+    deactivate
+    ```
+2.  **Remove virtual environment:**
+    ```bash
+    rm -rf ~/aider-env
+    ```
+3.  **Remove all Aider configuration and cache files:**
+    ```bash
+    rm -rf ~/.aider* ~/.config/aider ~/.cache/aider
+    ```
+4.  **Verify removal:**
+    ```bash
+    find ~ -name "*aider*"
+    ```
 
 ## Features
 
