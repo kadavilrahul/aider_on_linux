@@ -59,16 +59,15 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
     ```
 10.  **Run aider with specific model(Modify this as per your model):**
 
-    ```bash
     aider --model gemini/gemini-2.0-flash-thinking-exp
-    ```
+
 
 11.  **To export API key directly on the command line (Modify this as per your model):**
 
-    ```bash
+
     # Set API key for gemini
     export GEMINI_API_KEY=
-    ```
+
 
 12.  **Run aider with voice input:**
     ```bash
