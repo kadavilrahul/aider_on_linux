@@ -36,18 +36,19 @@ Here's how to get Aider up and running in 5 simple steps:
 1. **These one-liners will install aider, along with python 3.12 if needed. They are based on the uv installers.**
 
 Windows
+```bash
 powershell -ExecutionPolicy ByPass -c "irm https://aider.chat/install.ps1 | iex"
 
 Mac & Linux
 Use curl to download the script and execute it with sh:
-
+```bash
 curl -LsSf https://aider.chat/install.sh | sh
+```
 
 If your system doesn’t have curl, you can use wget:
-
+```bash
 wget -qO- https://aider.chat/install.sh | sh
-
-Using a virtual environment (`venv`) is highly recommended to keep your Python project dependencies isolated.
+```
 
 2.  **Create a `.env` file either in your home directory or in your project directory:**
 
