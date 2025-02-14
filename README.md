@@ -35,12 +35,14 @@ Here's how to get Aider up and running in 5 simple steps:
 
 1. **These one-liners will install aider, along with python 3.12 if needed. They are based on the uv installers.**
 
-Windows
+##### Windows:
+
 ```bash
 powershell -ExecutionPolicy ByPass -c "irm https://aider.chat/install.ps1 | iex"
-
-Mac & Linux
+```
+##### Mac & Linux
 Use curl to download the script and execute it with sh:
+
 ```bash
 curl -LsSf https://aider.chat/install.sh | sh
 ```
