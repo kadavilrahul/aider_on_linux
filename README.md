@@ -1,16 +1,17 @@
-# Aider Made Easy: Install and run aider with just five steps
+# Aider Made Easy: Install and run aider with just four steps
 
-**Simplify your coding workflow with Aider** This repository provides a quick and easy way to install and run [Aider](https://aider.chat) on any system. Get started in minutes and experience the power of AI-assisted coding directly in your familiar terminal environment.
+**Simplify your coding workflow with Aider** 
+This repository provides a quick and easy way to install and run [Aider](https://aider.chat) on any system. 
+Get started in minutes and experience the power of AI-assisted coding directly in your familiar terminal environment.
 
 ## 🚀 Quick Start Guide
 
-Here's how to get Aider up and running in 5 simple steps:
+Here's how to get Aider up and running in 4 simple steps:
 
 1.  **Prerequisites:** Ensure you have Python 3.7+ and an LLM API key.
-2.  **Create Virtual Environment (Recommended):** Isolate Aider's dependencies.
-3.  **Install Aider:** Use `pip` to install Aider within your virtual environment.
-4.  **Configure .env File:**  Easily set up your API keys and model preferences.
-5.  **Run Aider:** Launch Aider in your project directory and start coding with AI!
+2.  **Install Aider:** Use `pip` to install Aider within your virtual environment.
+3.  **Configure .env File:**  Easily set up your API keys and model preferences.
+4.  **Run Aider:** Launch Aider in your project directory and start coding with AI!
 
 ## 📖 Table of Contents
 
