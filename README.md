@@ -10,7 +10,7 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
 
 *   Python 3.7 or higher.
 *   Tested on Linux ubuntu 24.04.
-*   OpenRouter API Key. [https://openrouter.ai](https://openrouter.ai)
+*   LLM API Key
 
 ### Install aider using `pip` and `venv` (recommended)
 
