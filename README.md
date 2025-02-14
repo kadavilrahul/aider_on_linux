@@ -1,4 +1,4 @@
-# aider: AI Pair Programmer in terminal
+# Simplified and easy to install and run method for aider pair programmer tool
 
 [https://aider.chat](https://aider.chat)
 
