@@ -1,4 +1,4 @@
-# Aider Made Easy: install and run aider with just five commands
+# Aider Made Easy: Install and run aider with just five steps
 
 **Simplify your coding workflow with Aider** This repository provides a quick and easy way to install and run [Aider](https://aider.chat) on any system. Get started in minutes and experience the power of AI-assisted coding directly in your familiar terminal environment.
 
