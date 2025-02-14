@@ -15,8 +15,6 @@ Here's how to get Aider up and running in 5 simple steps:
 ## 📖 Table of Contents
 
 *   [🛠️ Installation](#️-installation)
-*   [🛠️ Method 1](#️-method-1)
-*   [🛠️ Method 2](#️-method-2)
 *   [⚙️ Other Commands](#️-other-commands)
 *   [🧹 Uninstallation](#-uninstallation)
 *   [📚 Documentation](#-documentation)
