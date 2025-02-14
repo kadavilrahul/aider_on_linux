@@ -4,7 +4,7 @@
 
 Aider is an AI pair programmer that helps you code in your terminal. It uses large language models to edit code in your local git repository. This repository is built to install and run aider easily on any linux distribution. You can install and run aider with five simple steps. It also includes a sample .env file for configuration.
 
-## Installation
+## INSTALLATIOn
 
 ### Prerequisites
 
@@ -39,7 +39,7 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
     aider --version
     ```
 
-### Run aider for each project
+### RUN AIDER
 
 1.  **Enter the Project folder**
     cd /path/to/project/foler
