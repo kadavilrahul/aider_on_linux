@@ -1,19 +1,6 @@
-# Aider Made Easy: Your AI Pair Programmer in the Terminal
+# Aider Made Easy: install and run aider with just five commands
 
-https://aider.chat/aider-logo.png)](https://aider.chat)
-
-**Simplify your coding workflow with Aider, the AI pair programmer for your terminal!** This repository provides a quick and easy way to install and run [Aider](https://aider.chat) on any Linux distribution. Get started in minutes and experience the power of AI-assisted coding directly in your familiar terminal environment.
-
-## ✨ Features at a Glance
-
-*   **Terminal-Based AI Coding:**  No context switching! Aider works directly in your terminal, where you code.
-*   **Easy Installation:**  Get up and running with just a few simple commands.
-*   **Git Integration:**  Aider understands your project's structure and history through Git.
-*   **Multi-Model Support:**  Choose from powerful models like GPT-4o, Claude 3, and more.
-*   **Voice Input (Optional):**  Code with your voice for a hands-free experience.
-*   **Web Chat Compatibility:**  Use Aider with web-based LLMs by easily pasting code snippets.
-*   **Built-in Code Quality Tools:**  Automatic linting and testing to keep your code clean.
-*   **Customizable & Configurable:**  Tailor Aider to your specific needs and preferences.
+**Simplify your coding workflow with Aider** This repository provides a quick and easy way to install and run [Aider](https://aider.chat) on any system. Get started in minutes and experience the power of AI-assisted coding directly in your familiar terminal environment.
 
 ## 🚀 Quick Start Guide
 
@@ -27,9 +14,6 @@ Here's how to get Aider up and running in 5 simple steps:
 
 ## 📖 Table of Contents
 
-*   [✨ Features at a Glance](#-features-at-a-glance)
-*   [🚀 Quick Start Guide](#-quick-start-guide)
-*   [📖 Table of Contents](#-table-of-contents)
 *   [🛠️ Installation](#️-installation)
     *   [Prerequisites](#prerequisites)
     *   [Recommended Installation (using `venv`)](#recommended-installation-using-venv)
@@ -40,8 +24,7 @@ Here's how to get Aider up and running in 5 simple steps:
     *   [Steps](#steps-2)
 *   [📚 Documentation](#-documentation)
 *   [🔑 API Key Setup](#-api-key-setup)
-*   [🤝 Contributing](#-contributing)
-*   [📜 License](#-license)
+
 
 ## 🛠️ Installation
 
@@ -221,14 +204,3 @@ For detailed information and advanced features, please visit the official Aider 
 
 Remember to configure your API keys in the `.env` file.  This is crucial for Aider to communicate with your chosen LLM provider.  Refer to the `sample_env` file for an example.
 
-## 🤝 Contributing
-
-[Contribution guidelines will be added here]
-
-## 📜 License
-
-[License information will be added here]
-
----
-
-**Enjoy coding with Aider!** 🚀
