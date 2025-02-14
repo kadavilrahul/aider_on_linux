@@ -70,6 +70,7 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
 
 
 12.  **Run aider with voice input:**
+
     ```bash
     aider --voice
     ```
