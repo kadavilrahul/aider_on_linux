@@ -86,7 +86,7 @@ Using a virtual environment (`venv`) is highly recommended to keep your Python p
     aider --version
     ```
 
-## 🏃 Running Aider
+## 🏃 Run aider
 
 1.  **Navigate to your project directory:**
 
@@ -151,7 +151,11 @@ Using a virtual environment (`venv`) is highly recommended to keep your Python p
 1.  **Exit the Aider chat:**
 
     ```
-    exit
+    /exit
+    ```
+
+    ```
+    /undo
     ```
 
 2.  **Deactivate the virtual environment (when finished):**
