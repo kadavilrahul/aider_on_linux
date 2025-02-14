@@ -85,7 +85,7 @@ Using a virtual environment (`venv`) is highly recommended to keep your Python p
     aider --version
     ```
 
-## 🏃 Install
+## 🛠️ Install
 
 1.  **Navigate to your project directory:**
 
