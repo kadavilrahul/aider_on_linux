@@ -6,3 +6,4 @@
 # export DEEPSEEK_API_KEY=
 # export GROQ_API_KEY=
 # export OPENROUTER_API_KEY=
+# AIDER_MODEL= gemini/gemini-2.0-flash-thinking-exp

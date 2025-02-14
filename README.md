@@ -21,6 +21,7 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
 3.  **Configure .env file**
     - Copy paste the contents of the sample_env file from this repository to the .env file:
     - Add API keys of LLM's to the .env file:
+    - Check this to configure other values https://aider.chat/docs/config/dotenv.html
     
 4.  **Create virtual environment(optional)**
     ```bash
