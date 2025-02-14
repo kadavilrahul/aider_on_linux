@@ -34,7 +34,7 @@ Here's how to get Aider up and running in 5 simple steps:
     *   [Prerequisites](#prerequisites)
     *   [Recommended Installation (using `venv`)](#recommended-installation-using-venv)
         *   [Steps](#steps)
-*   [🏃 Running Aider](#️-running-aider)
+*   [🏃 Run aider](#️-run-aider)
     *   [Steps](#steps-1)
 *   [⚙️ Other Commands](#️-other-commands)
 *   [🧹 Uninstallation](#-uninstallation)
