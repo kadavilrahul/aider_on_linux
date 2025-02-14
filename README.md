@@ -15,7 +15,8 @@ Here's how to get Aider up and running in 5 simple steps:
 ## 📖 Table of Contents
 
 *   [🛠️ Installation](#️-installation)
-*   [🛠️ Run](#️-run)
+*   [🛠️ Method 1](#️-method-1)
+*   [🛠️ Method 2](#️-method-2)
 *   [⚙️ Other Commands](#️-other-commands)
 *   [🧹 Uninstallation](#-uninstallation)
 *   [📚 Documentation](#-documentation)
@@ -30,11 +31,42 @@ Here's how to get Aider up and running in 5 simple steps:
 *   **Operating System:** Tested on Linux Ubuntu 24.04 (should work on most Linux distributions).
 *   **LLM API Key:** You'll need an API key from your preferred Large Language Model provider (e.g., OpenAI, Google Gemini, Anthropic, etc.).
 
-### Recommended Installation (using `venv`)
+### Installation 
+
+#### 🛠️ Method 1 - Global Installation
+
+1. **These one-liners will install aider, along with python 3.12 if needed. They are based on the uv installers.**
+
+Windows
+powershell -ExecutionPolicy ByPass -c "irm https://aider.chat/install.ps1 | iex"
+
+Mac & Linux
+Use curl to download the script and execute it with sh:
+
+curl -LsSf https://aider.chat/install.sh | sh
+
+If your system doesn’t have curl, you can use wget:
+
+wget -qO- https://aider.chat/install.sh | sh
 
 Using a virtual environment (`venv`) is highly recommended to keep your Python project dependencies isolated.
 
-#### Steps
+2.  **Create a `.env` file either in your home directory or in your project directory:**
+
+    Enter following lines in .env file.
+    Replace gemini, with your API provider, insert API keys and model name as per requirement.
+    
+    ```bash
+    export GEMINI_API_KEY=
+    AIDER_MODEL= gemini/gemini-2.0-flash-thinking-exp
+    ```
+3.  **Run Aider with the default model:**
+
+    ```bash
+    aider
+    ```
+
+#### 🛠️ Method 2 - Installation on Virtual Environment (using `venv`)
 
 1.  **Create a virtual environment (optional but recommended):**
 
@@ -68,8 +100,6 @@ Using a virtual environment (`venv`) is highly recommended to keep your Python p
    ```bash
    curl -LsSf https://aider.chat/install.sh | sh
    ```
-
-## 🛠️ Run
 
 1.  **Navigate to your project directory:**
 
