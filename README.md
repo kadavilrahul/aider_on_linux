@@ -34,7 +34,7 @@ Here's how to get Aider up and running in 5 simple steps:
     *   [Prerequisites](#prerequisites)
     *   [Recommended Installation (using `venv`)](#recommended-installation-using-venv)
         *   [Steps](#steps)
-*   [🛠️ Install](#️-install)
+*   [🛠️ Run](#️-run)
 *   [⚙️ Other Commands](#️-other-commands)
 *   [🧹 Uninstallation](#-uninstallation)
     *   [Steps](#steps-2)
@@ -85,7 +85,7 @@ Using a virtual environment (`venv`) is highly recommended to keep your Python p
     aider --version
     ```
 
-## 🛠️ Install
+## 🛠️ Run
 
 1.  **Navigate to your project directory:**
 
