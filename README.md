@@ -15,15 +15,8 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
 ### Install aider using `pip` and `venv` (recommended)
 
 1.  **Check if Python is installed:**
- 
-2.  **Create .env file in your project directory:**
 
-3.  **Configure .env file**
-    - Copy paste the contents of the sample_env file from this repository to the .env file:
-    - Add API keys of LLM's to the .env file:
-    - Check this to configure other values https://aider.chat/docs/config/dotenv.html
-    
-4.  **Create virtual environment(optional)**
+2.  **Create virtual environment(optional)**
     ```bash
     python3 -m venv ~/aider-env
     ```
@@ -32,12 +25,12 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
     python -m venv ~/aider-env
 
     ```
-5.  **Activate the virtual environment:**
+3.  **Activate the virtual environment:**
     ```bash
     source ~/aider-env/bin/activate
     ```
 
-6.  **Install aider:**
+4.  **Install aider:**
     ```bash
     python -m pip install aider-chat
     ```
@@ -45,32 +38,50 @@ Aider is an AI pair programmer that helps you code in your terminal. It uses lar
     ```bash
     aider --version
     ```
-7.  **Run aider with default model:**
+
+### Run aider for each project
+
+1.  **Enter the Project folder**
+    cd /path/to/project/foler
+
+3.  **Activate the virtual environment:**
+    ```bash
+    source ~/aider-env/bin/activate
+
+4.  **Create .env file in your project directory:**
+
+5.  **Configure .env file**
+    - Copy paste the contents of the sample_env file from this repository to the .env file:
+    - Add API keys of LLM's to the .env file:
+    - Mention default model name
+    - Check this to configure other values https://aider.chat/docs/config/dotenv.html
+
+6.  **Run aider with default model:**
     ```bash
     aider
     ```
-8.  **List all models:**
+7.  **List all models:**
     ```bash
     aider --list-models
     ```
-9.  **List models of a specific LLM provider(Modify this as per your model):**
+8.  **List models of a specific LLM provider(Modify this as per your model):**
 
     ```bash
     aider --list-models gemini/
     ```
-10.  **Run aider with specific model(Modify this as per your model):**
+9.  **Run aider with specific model(Modify this as per your model):**
 
     aider --model gemini/gemini-2.0-flash-thinking-exp
 
 
-11.  **To export API key directly on the command line (Modify this as per your model):**
+10.  **To export API key directly on the command line (Modify this as per your model):**
 
 
     # Set API key for gemini
     export GEMINI_API_KEY=
 
 
-12.  **Run aider with voice input:**
+11.  **Run aider with voice input:**
 
     aider --voice
 
