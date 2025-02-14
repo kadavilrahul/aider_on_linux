@@ -1,6 +1,6 @@
 # Aider Made Easy: Your AI Pair Programmer in the Terminal
 
-[[Aider Chat](https://aider.chat/aider-logo.png)](https://aider.chat)
+https://aider.chat/aider-logo.png)](https://aider.chat)
 
 **Simplify your coding workflow with Aider, the AI pair programmer for your terminal!** This repository provides a quick and easy way to install and run [Aider](https://aider.chat) on any Linux distribution. Get started in minutes and experience the power of AI-assisted coding directly in your familiar terminal environment.
 
@@ -34,7 +34,7 @@ Here's how to get Aider up and running in 5 simple steps:
     *   [Prerequisites](#prerequisites)
     *   [Recommended Installation (using `venv`)](#recommended-installation-using-venv)
         *   [Steps](#steps)
-*   [🏃 Run aider](#run-aider)
+*   [🏃 Run Aider](#️-run-aider)
 *   [⚙️ Other Commands](#️-other-commands)
 *   [🧹 Uninstallation](#-uninstallation)
     *   [Steps](#steps-2)
@@ -85,7 +85,7 @@ Using a virtual environment (`venv`) is highly recommended to keep your Python p
     aider --version
     ```
 
-## 🏃 Run aider
+## 🏃 Run Aider
 
 1.  **Navigate to your project directory:**
 
