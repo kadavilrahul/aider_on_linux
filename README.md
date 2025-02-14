@@ -63,6 +63,11 @@ Using a virtual environment (`venv`) is highly recommended to keep your Python p
     ```bash
     aider --version
     ```
+4. **Install aider globally (Optional)**
+
+   ```bash
+   curl -LsSf https://aider.chat/install.sh | sh
+   ```
 
 ## 🛠️ Run
 
@@ -121,6 +126,8 @@ Using a virtual environment (`venv`) is highly recommended to keep your Python p
 10. **Run Aider with voice input (if configured):**
 
     ```bash
+    sudo apt-get install libportaudio2
+    sudo apt install libasound2-plugins
     aider --voice
     ```
 
