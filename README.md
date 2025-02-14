@@ -18,10 +18,8 @@ Here's how to get Aider up and running in 5 simple steps:
 *   [🛠️ Run](#️-run)
 *   [⚙️ Other Commands](#️-other-commands)
 *   [🧹 Uninstallation](#-uninstallation)
-    *   [Steps](#steps-2)
 *   [📚 Documentation](#-documentation)
 *   [🔑 API Key Setup](#-api-key-setup)
-*   [🚀 Quick Start Guide](#-quick-start-guide)
 
 
 ## 🛠️ Installation
