@@ -126,36 +126,41 @@ wget -qO- https://aider.chat/install.sh | sh
     *   **Explore other settings:**  Refer to the [Aider documentation](https://aider.chat/docs/config/dotenv.html) for more customization options.
 
 5.  **Run Aider with the default model:**
-
+   
+    Use default mode
     ```bash
     aider
     ```
+    Use copy paste mode
+    ```
+    aider --copy-paste
+    ```
 
-6.  **List available models:**
+7.  **List available models:**
 
     ```bash
     aider --list-models
     ```
 
-7.  **List models for a specific provider (e.g., Gemini):**
+8.  **List models for a specific provider (e.g., Gemini):**
 
     ```bash
     aider --list-models gemini/
     ```
 
-8.  **Run Aider with a specific model:**
+9.  **Run Aider with a specific model:**
 
     ```bash
     aider --model gemini/gemini-2.0-flash-thinking-exp
     ```
 
-9.  **Alternatively, export API keys directly in your terminal (not recommended for security in long-term use):**
+10.  **Alternatively, export API keys directly in your terminal (not recommended for security in long-term use):**
 
     ```bash
     export GEMINI_API_KEY=your_gemini_api_key
     ```
 
-10. **Run Aider with voice input (if configured):**
+11. **Run Aider with voice input (if configured):**
 
     ```bash
     sudo apt-get install libportaudio2
@@ -174,7 +179,7 @@ wget -qO- https://aider.chat/install.sh | sh
     ```
     /undo
     ```
-
+    
 2.  **Deactivate the virtual environment (when finished):**
 
     ```bash
