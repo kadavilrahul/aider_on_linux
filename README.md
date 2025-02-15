@@ -131,6 +131,7 @@ wget -qO- https://aider.chat/install.sh | sh
     ```bash
     aider
     ```
+    
     Use copy paste mode
     ```
     aider --copy-paste
